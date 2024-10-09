@@ -61,11 +61,11 @@
   text-align: left;
 }
 
-.perguntas-item dd {
+.js .perguntas-item dd {
   display: none;
 }
 
-.perguntas-item dd.ativa {
+.js .perguntas-item dd.ativa {
   display: block;
 }
 

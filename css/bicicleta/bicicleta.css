@@ -1,0 +1,129 @@
+.bicicleta{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicleta-imagens{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;  
+}
+
+.bicicleta-imagens img{
+  flex: 1;  
+  min-width: 200px;
+}
+
+.bicicleta-imagens img:first-child{
+  min-width: 100%;
+}
+
+.bicicleta-conteudo > p{
+  margin-bottom: 30px;
+}
+
+.bicicleta-comprar{
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 8px 12px;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 40px;
+}
+
+.bicicleta-comprar a{
+  grid-row: span 2;
+}
+
+.bicicleta-comprar span{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  background-color: var(--cor-12);
+  border-radius: 4px;
+}
+
+.bicicleta h2{
+  margin-bottom: 12px;
+  letter-spacing: 0.015;
+}
+
+.bicicleta-informacoes, .bicicleta-ficha{
+  background-color: var(--cor-12);
+  padding: 32px; 
+  border-radius: 4px;
+}
+
+.bicicleta-informacoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 40px;
+  margin-bottom: 40px;
+}
+
+.bicicleta-informacoes > img{
+  margin-bottom: 4px;
+}
+
+.bicicleta-informacoes h3{
+  margin-bottom: 8px;
+}
+
+.bicicleta-ficha{
+  display: grid;
+  gap: 6px;
+}
+
+.bicicleta-ficha li{
+  display: flex;
+  padding-bottom: 6px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cor-11);
+}
+
+.bicicleta-ficha li:last-child{
+  border-bottom: none;
+}
+
+@media (max-width: 800px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bicicleta-imagens{
+    grid-row: 2;
+  }
+  .titulo{
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .bicicleta-informacoes {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta-comprar {
+    grid-template-columns: 1fr;
+  }
+} 
+
+#nimbus .bicicletas-lista {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#nimbus .bicicletas-lista img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+

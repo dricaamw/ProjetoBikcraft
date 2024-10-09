@@ -1,0 +1,70 @@
+.seguros-bg{
+  background-color: var(--cor-11);
+}
+
+.seguros{
+  padding: 60px 220px 154px 220px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.seguros h2{
+  grid-column: 1 / -1;
+  margin-bottom: 105px;
+}
+
+.seguros-prata, .seguros-ouro{
+  background-color: var(--cor-12);
+  padding: 32px 32px 32px 60px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: 560px; 
+  height: 409px;
+  border-radius: 4px;
+}
+
+.seguros-prata span, .seguros-ouro span{
+  text-align: end;
+  display: block;
+}
+
+.seguros li{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.seguros li::before{
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url("../../img/icones/lista.svg");
+  position: absolute;
+  left: -21px;
+  top: 5px;
+}
+
+.seguros a {
+  grid-column: 1;  
+  align-self: center;
+}
+
+.seguros-prata:hover, .seguros-ouro:hover {
+  height: 495px;  
+}
+
+.vantagens-bg{
+  background-color: var(--cor-8);
+}
+
+@media (max-width: 800px) {
+  .seguros {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+
+

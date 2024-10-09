@@ -1,0 +1,30 @@
+.vantagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+}
+
+.vantagens > h2{
+  grid-column: 1 / -1;
+  margin-bottom: 80px;
+}
+
+.vantagens-lista{
+  display: grid;
+  gap: 8px;
+}
+
+@media (max-width: 800px) {
+  .vantagens{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+  }
+  .vantagens h2{
+    margin-bottom: 40px;
+  }
+  
+}

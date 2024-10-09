@@ -1,0 +1,35 @@
+
+
+.termos{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 100px;
+}
+
+.termos h2 {
+  margin-bottom: 12px;
+  font-weight: 600;
+  position: relative;
+}
+
+.termos p + h2 {
+  margin-top: 48px;
+}
+
+.termos h2::before{
+  content: "";
+  display: block;
+  width: 24px;
+  height: 10px;
+  background-color: var(--cor-p1);
+  position: absolute;
+  top: 12px;
+  left: -40px;
+}
+
+.termos p{
+  max-width: 75ch;
+  margin-bottom: 30px;
+}
+
+

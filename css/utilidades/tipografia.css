@@ -1,0 +1,122 @@
+.font-1-xxl {
+  font-family: var(--Poppins);
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 1.125;
+}
+
+.font-2-xl {
+  font-family: var(--Roboto);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-1-xl{
+  font-family: var(--Poppins);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-1-l{
+  font-family: var(--Poppins);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-2-l{
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-2-l-b{
+  font-family: var(--Roboto);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-1-m{
+  font-family: var(--Poppins);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+.font-1-m-b{
+  font-family: var(--Poppins);
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+.font-2-m{
+  font-family: var(--Roboto);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+.font-3-m{
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.font-4-m{
+  font-family: var(--Poppins);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.font-1-s{
+  font-family: var(--Poppins);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-s{
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-xs{
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+}
+
+.font-1-xs{
+  font-family: var(--Poppins);
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 1200px) {
+  .font-1-xxl {
+    font-size: 3rem;
+  }
+  .font-2-l, .font-2-l-b{
+    font-size: 1.125rem;
+  }
+} 
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 2rem;
+  }
+  .font-2-l, .font-2-l-b{
+    font-size: 1.5rem;
+  }
+}
